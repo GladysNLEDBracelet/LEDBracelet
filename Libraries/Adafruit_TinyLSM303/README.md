@@ -1,8 +1,19 @@
-TinyWireM
+Adafruit_TynyLSM303
 =========
 
-ATtiny (e.g. Adafruit Trinket, Gemma) I2C library, adapted from BroHogan's code on Arduino Playground: http://playground.arduino.cc/Code/USIi2c
+This is a library for the Adafruit triple-axis accelerometer/magnetometer LSM303DLHC breakout
 
-Minor changes for consistency with the Arduino 1.0 Wire library (e.g. uses write() instead of send()). Buffer size slightly increased for Adafruit_LEDBackpack use.
+Designed specifically to work with the Adafruit LSM303 Breakout ----> https://www.adafruit.com/products/1120
 
-On the Trinket boards, pin #0 is SDA (I2C data), pin #2 is SCK (I2C clock).
+These triple-axis accelerometer/magnetometer use I2C to communicate, 2 pins are required to interface Adafruit invests time and resources providing this open source code, please support Adafruit and open-source hardware by purchasing products from Adafruit!
+
+Check out the links above for our tutorials and wiring diagrams
+
+Written by Kevin Townsend for Adafruit Industries.
+BSD license, all text above must be included in any redistribution
+
+Modifyed by Marcus Olsson to be able to run on Adafruit GEMMA and TRINKET (Attiny85)
+
+To download. click the DOWNLOADS button in the top right corner, rename the uncompressed folder Adafruit_TinyLSM303. Check that the Adafruit_TinyLSM303 folder contains Adafruit_TinyLSM303.cpp and Adafruit_TinyLSM303.h
+
+Place the Adafruit_TinyLSM303 library folder your arduinosketchfolder/libraries/ folder. You may need to create the libraries subfolder if its your first library. Restart the IDE.
